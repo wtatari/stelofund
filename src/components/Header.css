@@ -1,0 +1,53 @@
+/* src/components/Header.css */
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f9fa;
+  padding: 15px 0;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+.logo {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.logo img {
+  max-height: 40px;
+  width: 200px;
+}
+
+.navigation ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li {
+  margin: 0 10px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #333;
+}
+
+.connect-wallet {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
